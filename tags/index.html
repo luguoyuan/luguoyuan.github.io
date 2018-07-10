@@ -44,7 +44,7 @@
       
         <li class="nav-item">
           
-            <a href="/tags" class="item-link">标签</a>
+            <a href="/tags" class="item-link active">标签</a>
           
         </li>
       
@@ -52,35 +52,31 @@
   </div>
 </header>
 
-  <main id="archive">
-  <div class="content">
-        
-    
-      <div class="year-list">
-        <h3>2018</h3>
-        <ul>
-          
-            <li >
-              <time>2018/07/10</time>
-              <a href="/2018/07/10/hello，世界/">
-                <span>
+  <main id='tags'>
+  <div class="tags-container">
+  <div id='tag_cloud' class="tags">
+      
+          <a href="#test" title="test" rel="1">test</a>
+      
+  </div>
+  
+  <div class="tag-list">
+      <span class="fa fa-tag listing-seperator" id="test">
+          <span class="tag-text">test</span>
+      </span>
+      
+        <div class="post-preview">
+            <a href="/2018/07/10/hello，世界/">
+                <h2 class="post-title">
                     hello，世界
-                </span>
-              </a>
-            </li>
-          
-            <li >
-              <time>2018/07/10</time>
-              <a href="/2018/07/10/hello-world/">
-                <span>
-                    Hello World
-                </span>
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-        
+                </h2>
+                
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+      
+  </div>
+    
   </div>
 </main>
 
